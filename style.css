@@ -8,8 +8,10 @@ body{
 }
 
 header{
-    padding: 150px;
-    background: url(logo.jpeg) no-repeat center/cover ;
+    
+    background: url(logo.jpg) no-repeat center/cover ;
+    padding: 190px;
+    
     
     
 }
@@ -98,16 +100,16 @@ header{
 } 
 
 /* Team Section */
-#team-section{ 
-    position: relative;
+#team{ 
+    position: flex;
 }
 
 #team-section::before{
  content: "";
  position: absolute;
- background-color: darkgrey;
- width: 100%;
- height: 100%;
+ background-color: #a9a9a9;
+ width: 120%;
+ height: 140%;
  z-index: -1;
  opacity: 0.3;
 }
@@ -119,26 +121,59 @@ header{
 }
 
 .team{
+    
     padding: 34px;
+    display: relative;
+    border: 2px solid #0099FF;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    
+
+    
 }
 
-#team img{
-    height: 124px;
+
+
+.team img{
+        height: 130px;
+        width: 75px;
+        display: block;
+        margin: auto;
+        
+        
+}
+
+
+
+.link-img img{
+    margin-left: 10px;
+    height: 20px;
+    width:  20px;
+    
+
+}
+
+
+
+.address img{
+    height: 20px;
+    width: 20px;
 }
 
 
 /* Contact Section */
-#contact{
-    position: relative;
-}
+
 #contact::before{
     content: "";
     position: absolute;
-    width: 100%;
+    width:120%;
     height: 100%;
     z-index: -1;
     opacity: 0.7;
-    background: url('../contact.jpg') no-repeat center center/cover;
+    background: #99a1a7;
 
 }
 #contact-box{
@@ -146,6 +181,7 @@ header{
     justify-content: center;
     align-items: center;
     padding-bottom: 34px;
+    padding-left: 30px;
 }
 #contact-box input, 
 #contact-box textarea{
@@ -157,6 +193,7 @@ header{
 
 #contact-box form{
     width: 40%;
+
 }
 
 #contact-box label{
@@ -165,18 +202,60 @@ header{
 
 }
 
+label {
+    color:rgb(0, 0, 0);
+}
+
+.address-logo .address-list li{
+    float: right;
+    
+    
+}
+
+
+.address-list{
+    
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.address{
+    background-color: #0099ff;
+    height: 400px;
+    width: 100%;
+}
+li{
+    list-style: none;
+    
+}
+
+
 
 footer{
     background: black;
     color: white;
-    padding: 9px 20px;
+    height: 120px;
+    
+
+    
+    
+    
 }
 
+.h-prior{font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+    padding-left: 100px;
 
+
+}
 .h-primary{
     font-family: 'Bree Serif', serif;
     font-size: 3.8rem;
-    padding: 12px;
+    color: rgb(0, 0, 0);
+    
 }
 
 .h-secondary{
@@ -189,4 +268,14 @@ footer{
 
 .center{
     text-align: center;
+    padding-top: 20px;
+    
+
 }
+
+
+
+
+
+
+
