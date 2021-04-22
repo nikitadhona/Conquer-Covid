@@ -9,7 +9,7 @@ body{
 
 header{
     
-    background: url(logo.jpg) no-repeat center/cover ;
+    background: url(logo.jpeg) no-repeat center/cover ;
     padding: 190px;
     
     
@@ -75,6 +75,9 @@ header{
 
 
 /* Services Section */
+.background video{
+    width: 100%;
+}
 #services{
     margin: 34px;
     display: flex;
@@ -109,7 +112,7 @@ header{
  position: absolute;
  background-color: #a9a9a9;
  width: 120%;
- height: 140%;
+ height: 200%;
  z-index: -1;
  opacity: 0.3;
 }
@@ -120,7 +123,7 @@ header{
     align-items: center;
 }
 
-.team{
+.team {
     
     padding: 34px;
     display: relative;
@@ -272,10 +275,4 @@ footer{
     
 
 }
-
-
-
-
-
-
 
